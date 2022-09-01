@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+
+  .animacion{
+    
+        width: 100px;
+        height: 100px;
+        background: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 3s;  
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes example {
+        from {top: 0px;}
+        to {top: 200px; background-color: blue;}
+      }
+  
